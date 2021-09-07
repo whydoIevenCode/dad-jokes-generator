@@ -1,0 +1,28 @@
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(94, 228, 176),
+    rgb(121, 194, 236)
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.joke-box {
+  max-width: 85%;
+  width: 400px;
+  background-color: #fff;
+  padding: 40px 25px;
+}
