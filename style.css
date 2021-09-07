@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 *,
 *::after {
   margin: 0;
@@ -25,4 +27,36 @@ body {
   width: 400px;
   background-color: #fff;
   padding: 40px 25px;
+  border-radius: 10px;
+}
+.joke-box p {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Lobster", cursive;
+}
+.btn {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(94, 228, 176),
+    rgb(121, 194, 236)
+  );
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 100px;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.joke-box *:not(:last-child) {
+  margin-bottom: 15px;
+}
+.btn:hover {
+  transform: scale(1.05) translateY(0);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: scale(1.05) translateY(1px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
